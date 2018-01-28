@@ -1,3 +1,6 @@
+/* Program for reading CO2 concentration in ppm from the MH-Z14A CO2 sensor. This program turns off automatic baseline correction,
+ * and sets the range of the sensor to 10000ppm. CO2 concentration is output on the standard output every 10 seconds. */
+
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <string.h>
